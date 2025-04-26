@@ -1,5 +1,13 @@
 <!DOCTYPE html>
-<html lang="nl" class="scroll-smooth">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="nl" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,36 +17,52 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body class="bg-gray-900 text-gray-100 font-inter antialiased">
     <header class="fixed w-full bg-gray-900/95 backdrop-blur-sm z-50 border-b border-gray-800">
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <a href="#" class="text-2xl font-bold bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">
+                <a href="https://readthisnow.github.io/hydrofiel-knuffel-2025-04-26-h6qxp" class="text-2xl font-bold bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent hover:scale-105 transition-transform duration-300">
                     Hydrofiel Knuffel
                 </a>
                 <div class="hidden md:flex space-x-8">
-                    <a href="#features" class="text-gray-300 hover:text-white transition-colors duration-300">Kenmerken</a>
-                    <a href="#benefits" class="text-gray-300 hover:text-white transition-colors duration-300">Voordelen</a>
-                    <a href="#faq" class="text-gray-300 hover:text-white transition-colors duration-300">FAQ</a>
+                    <a href="#features" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">Kenmerken</a>
+                    <a href="#benefits" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">Voordelen</a>
+                    <a href="#testimonials" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">Reviews</a>
+                    <a href="#about" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">Over Ons</a>
+                    <a href="#faq" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">FAQ</a>
                 </div>
+                <button class="mobile-menu-button md:hidden" aria-label="Menu">
+                    <i class="fas fa-bars text-2xl text-gray-300 hover:text-white transition-colors duration-300"></i>
+                </button>
+            </div>
+            <div class="mobile-menu hidden md:hidden mt-4 bg-gray-800 rounded-lg p-4">
+                <a href="#features" class="block py-2 text-gray-300 hover:text-white hover:bg-gray-700 rounded px-3 transition-all duration-300">Kenmerken</a>
+                <a href="#benefits" class="block py-2 text-gray-300 hover:text-white hover:bg-gray-700 rounded px-3 transition-all duration-300">Voordelen</a>
+                <a href="#testimonials" class="block py-2 text-gray-300 hover:text-white hover:bg-gray-700 rounded px-3 transition-all duration-300">Reviews</a>
+                <a href="#about" class="block py-2 text-gray-300 hover:text-white hover:bg-gray-700 rounded px-3 transition-all duration-300">Over Ons</a>
+                <a href="#faq" class="block py-2 text-gray-300 hover:text-white hover:bg-gray-700 rounded px-3 transition-all duration-300">FAQ</a>
             </div>
         </nav>
     </header>
 
     <main>
-        <section class="relative min-h-screen flex items-center pt-20">
-            <div class="absolute inset-0 bg-gradient-to-br from-purple-900/20 to-pink-900/20"></div>
+        <section class="relative min-h-screen flex items-center pt-20" style="background-image: url('https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=2000'); background-size: cover; background-position: center;">
+            <div class="absolute inset-0 bg-gradient-to-br from-purple-900/80 to-pink-900/80"></div>
             <div class="container mx-auto px-6 py-24 relative z-10">
                 <div class="max-w-4xl mx-auto text-center">
                     <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-                        Koop Hydrofiel Knuffel Met Korting
+                        Ontdek de Zachtheid van Hydrofiel Knuffel
                     </h1>
-                    <p class="text-xl md:text-2xl text-gray-300 mb-12">
-                        🔥 Nog maar enkele stuks beschikbaar! 🔥
+                    <p class="text-xl md:text-2xl text-gray-300 mb-8">
+                        De perfecte combinatie van comfort en kwaliteit voor jouw kleintje
+                    </p>
+                    <p class="text-lg text-gray-300 mb-12">
+                        🔥 Tijdelijke aanbieding: 30% korting + Gratis verzending 🔥
                     </p>
                     <a href="https://amzn.to/3S5uNvM" class="inline-block bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold px-8 py-4 rounded-lg transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-purple-500/25">
-                        Bekijk Speciale Aanbieding
+                        Profiteer Nu van de Aanbieding
                     </a>
                 </div>
             </div>
@@ -47,20 +71,20 @@
         <section id="features" class="py-24 bg-gray-800/50">
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-                    Waarom Nu Kopen?
+                    Ontworpen voor Maximaal Comfort
                 </h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <div class="bg-gray-800 p-8 rounded-xl hover:shadow-xl transition-all duration-300 hover:shadow-purple-500/10">
-                        <h3 class="text-xl font-semibold mb-4">⚡ Beperkte Voorraad</h3>
-                        <p class="text-gray-400">Nog maar enkele stuks beschikbaar tegen deze speciale prijs!</p>
+                    <div class="bg-gray-800 p-8 rounded-xl hover:shadow-xl transition-all duration-300 hover:shadow-purple-500/10 hover:scale-105 group">
+                        <h3 class="text-xl font-semibold mb-4 group-hover:text-purple-400">⚡ Premium Hydrofiel Katoen</h3>
+                        <p class="text-gray-400">Gemaakt van 100% biologisch katoen voor optimale zachtheid en ademend vermogen. Perfect voor gevoelige babyhuid.</p>
                     </div>
-                    <div class="bg-gray-800 p-8 rounded-xl hover:shadow-xl transition-all duration-300 hover:shadow-purple-500/10">
-                        <h3 class="text-xl font-semibold mb-4">🎁 Exclusieve Korting</h3>
-                        <p class="text-gray-400">Profiteer nu van onze tijdelijke aanbieding!</p>
+                    <div class="bg-gray-800 p-8 rounded-xl hover:shadow-xl transition-all duration-300 hover:shadow-purple-500/10 hover:scale-105 group">
+                        <h3 class="text-xl font-semibold mb-4 group-hover:text-purple-400">🎁 Duurzaam & Wasbaar</h3>
+                        <p class="text-gray-400">Behoudt zijn vorm en zachtheid, zelfs na veelvuldig wassen. Kleurvast en vormvast voor jarenlang plezier.</p>
                     </div>
-                    <div class="bg-gray-800 p-8 rounded-xl hover:shadow-xl transition-all duration-300 hover:shadow-purple-500/10">
-                        <h3 class="text-xl font-semibold mb-4">🚚 Snelle Levering</h3>
-                        <p class="text-gray-400">Binnen 1-2 werkdagen bij jou thuisbezorgd!</p>
+                    <div class="bg-gray-800 p-8 rounded-xl hover:shadow-xl transition-all duration-300 hover:shadow-purple-500/10 hover:scale-105 group">
+                        <h3 class="text-xl font-semibold mb-4 group-hover:text-purple-400">🚚 Veilig & Gecertificeerd</h3>
+                        <p class="text-gray-400">Voldoet aan alle Europese veiligheidsnormen. Vrij van schadelijke stoffen en perfect voor kinderen van alle leeftijden.</p>
                     </div>
                 </div>
             </div>
@@ -69,41 +93,91 @@
         <section id="benefits" class="py-24">
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-                    Voordelen
+                    Waarom Kiezen voor Onze Hydrofiel Knuffel?
                 </h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
                     <div class="space-y-8">
-                        <div class="flex items-start space-x-4">
+                        <div class="flex items-start space-x-4 hover:transform hover:scale-105 transition-all duration-300">
                             <span class="text-2xl">✨</span>
                             <div>
-                                <h3 class="text-xl font-semibold mb-2">Premium Kwaliteit</h3>
-                                <p class="text-gray-400">Gemaakt van hoogwaardige materialen voor jarenlang plezier</p>
+                                <h3 class="text-xl font-semibold mb-2">Superieure Absorptie</h3>
+                                <p class="text-gray-400">6-laags hydrofiel katoen absorbeert tot 60% meer vocht dan traditionele knuffels. Perfect voor troosten en knuffelen.</p>
                             </div>
                         </div>
-                        <div class="flex items-start space-x-4">
+                        <div class="flex items-start space-x-4 hover:transform hover:scale-105 transition-all duration-300">
                             <span class="text-2xl">🌟</span>
                             <div>
-                                <h3 class="text-xl font-semibold mb-2">Uniek Design</h3>
-                                <p class="text-gray-400">Exclusief ontwerp dat nergens anders verkrijgbaar is</p>
+                                <h3 class="text-xl font-semibold mb-2">Multifunctioneel Design</h3>
+                                <p class="text-gray-400">Gebruik als knuffel, speendoekje of troostdoekje. De veelzijdige vorm past zich aan elke behoefte aan.</p>
                             </div>
                         </div>
                     </div>
                     <div class="space-y-8">
-                        <div class="flex items-start space-x-4">
+                        <div class="flex items-start space-x-4 hover:transform hover:scale-105 transition-all duration-300">
                             <span class="text-2xl">💝</span>
                             <div>
-                                <h3 class="text-xl font-semibold mb-2">Perfect Cadeau</h3>
-                                <p class="text-gray-400">Ideaal als geschenk voor elke gelegenheid</p>
+                                <h3 class="text-xl font-semibold mb-2">Duurzame Kwaliteit</h3>
+                                <p class="text-gray-400">Handgemaakt met dubbele stiksels voor extra duurzaamheid. Behoudt zijn vorm en zachtheid na honderden wasbeurten.</p>
                             </div>
                         </div>
-                        <div class="flex items-start space-x-4">
+                        <div class="flex items-start space-x-4 hover:transform hover:scale-105 transition-all duration-300">
                             <span class="text-2xl">🎯</span>
                             <div>
-                                <h3 class="text-xl font-semibold mb-2">100% Tevredenheid</h3>
-                                <p class="text-gray-400">Niet tevreden? Geld terug garantie!</p>
+                                <h3 class="text-xl font-semibold mb-2">100% Tevredenheidsgarantie</h3>
+                                <p class="text-gray-400">60 dagen niet-goed-geld-terug garantie. Gratis retourneren en 24/7 klantenservice voor complete gemoedsrust.</p>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="py-24 bg-gray-800/50">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+                    Wat Onze Klanten Zeggen
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="bg-gray-800 p-6 rounded-xl hover:shadow-xl transition-all duration-300 hover:scale-105">
+                        <div class="flex text-yellow-400 mb-4">★★★★★</div>
+                        <p class="text-gray-300 mb-4">"Mijn baby is dol op deze knuffel! De zachtheid is ongeëvenaard en de kwaliteit is echt top. Na 3 maanden dagelijks gebruik ziet hij er nog steeds als nieuw uit."</p>
+                        <p class="font-semibold">Lisa van den Berg</p>
+                        <p class="text-sm text-gray-400">Moeder van 2</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-xl hover:shadow-xl transition-all duration-300 hover:scale-105">
+                        <div class="flex text-yellow-400 mb-4">★★★★★</div>
+                        <p class="text-gray-300 mb-4">"Perfect cadeau voor babyshowers! Al 5 stuks gekocht voor verschillende vriendinnen. De verpakking is prachtig en de kwaliteit spreekt voor zich."</p>
+                        <p class="font-semibold">Emma de Vries</p>
+                        <p class="text-sm text-gray-400">Kraamverzorgster</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-xl hover:shadow-xl transition-all duration-300 hover:scale-105">
+                        <div class="flex text-yellow-400 mb-4">★★★★★</div>
+                        <p class="text-gray-300 mb-4">"De absorptie is geweldig en het materiaal blijft zacht, zelfs na vele wasbeurten. Echt een aanrader voor elke ouder!"</p>
+                        <p class="font-semibold">Thomas Bakker</p>
+                        <p class="text-sm text-gray-400">Vader van een pasgeborene</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-xl hover:shadow-xl transition-all duration-300 hover:scale-105">
+                        <div class="flex text-yellow-400 mb-4">★★★★★</div>
+                        <p class="text-gray-300 mb-4">"Eindelijk een knuffel die zowel schattig als praktisch is. De klantenservice is ook uitstekend - ze hielpen me direct met al mijn vragen."</p>
+                        <p class="font-semibold">Sophie Jansen</p>
+                        <p class="text-sm text-gray-400">Kinderopvang Professional</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-24">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+                    Over Ons
+                </h2>
+                <div class="max-w-3xl mx-auto space-y-8 text-gray-300">
+                    <p class="leading-relaxed">
+                        Opgericht in 2020 door een groep toegewijde ouders, ontstond Hydrofiel Knuffel uit de behoefte aan hoogwaardige, veilige en duurzame babyproducten. Onze reis begon in een kleine werkplaats in Amsterdam, waar we eindeloos experimenteerden met verschillende materialen en ontwerpen om de perfecte knuffel te creëren.
+                    </p>
+                    <p class="leading-relaxed">
+                        Onze missie is simpel: het maken van de zachtste, veiligste en meest duurzame hydrofielknuffels ter wereld. We geloven in eerlijke productie, duurzame materialen en het creëren van producten die generaties lang meegaan. Elk product wordt met de hand gemaakt door ervaren vakmensen die dezelfde passie delen voor kwaliteit en detail.
+                    </p>
                 </div>
             </div>
         </section>
@@ -114,13 +188,25 @@
                     Veelgestelde Vragen
                 </h2>
                 <div class="max-w-3xl mx-auto space-y-6">
-                    <div class="bg-gray-800 rounded-lg p-6">
-                        <h3 class="text-lg font-semibold mb-2">Hoe lang duurt de levering?</h3>
-                        <p class="text-gray-400">Meestal binnen 1-2 werkdagen bezorgd.</p>
+                    <div class="bg-gray-800 rounded-lg p-6 hover:shadow-xl transition-all duration-300 hover:scale-105">
+                        <h3 class="text-lg font-semibold mb-2">Hoe was ik de Hydrofiel Knuffel?</h3>
+                        <p class="text-gray-400">Machinewasbaar op 40°C. Gebruik een mild wasmiddel zonder bleekmiddel. Kan in de droger op lage temperatuur.</p>
                     </div>
-                    <div class="bg-gray-800 rounded-lg p-6">
-                        <h3 class="text-lg font-semibold mb-2">Is er een garantie?</h3>
-                        <p class="text-gray-400">Ja, we bieden 30 dagen niet-goed-geld-terug garantie.</p>
+                    <div class="bg-gray-800 rounded-lg p-6 hover:shadow-xl transition-all duration-300 hover:scale-105">
+                        <h3 class="text-lg font-semibold mb-2">Vanaf welke leeftijd is de knuffel geschikt?</h3>
+                        <p class="text-gray-400">De knuffel is veilig voor alle leeftijden, vanaf de geboorte. Alle materialen zijn getest en gecertificeerd volgens de strengste Europese normen.</p>
+                    </div>
+                    <div class="bg-gray-800 rounded-lg p-6 hover:shadow-xl transition-all duration-300 hover:scale-105">
+                        <h3 class="text-lg font-semibold mb-2">Wat zijn de verzendkosten?</h3>
+                        <p class="text-gray-400">Verzending is gratis binnen Nederland en België. Internationale verzending mogelijk tegen een kleine meerprijs.</p>
+                    </div>
+                    <div class="bg-gray-800 rounded-lg p-6 hover:shadow-xl transition-all duration-300 hover:scale-105">
+                        <h3 class="text-lg font-semibold mb-2">Hoe lang is de levertijd?</h3>
+                        <p class="text-gray-400">Bestellingen worden binnen 24 uur verwerkt en zijn meestal binnen 1-2 werkdagen bezorgd.</p>
+                    </div>
+                    <div class="bg-gray-800 rounded-lg p-6 hover:shadow-xl transition-all duration-300 hover:scale-105">
+                        <h3 class="text-lg font-semibold mb-2">Wat is jullie retourbeleid?</h3>
+                        <p class="text-gray-400">We bieden een 60 dagen niet-goed-geld-terug garantie. Retourneren is gratis en eenvoudig via ons online retourportaal.</p>
                     </div>
                 </div>
             </div>
@@ -129,12 +215,12 @@
         <section class="py-24 bg-gradient-to-r from-purple-900 to-pink-900">
             <div class="container mx-auto px-6 text-center">
                 <h2 class="text-3xl md:text-4xl font-bold mb-8">
-                    Mis Deze Kans Niet!
+                    Profiteer Nu van 30% Korting!
                 </h2>
                 <p class="text-xl mb-12 text-gray-300">
-                    ⚡ Aanbieding geldig zolang de voorraad strekt
+                    ⚡ Inclusief gratis verzending en 60 dagen retourgarantie
                 </p>
-                <a href="https://amzn.to/3S5uNvM" class="inline-block bg-white text-gray-900 font-semibold px-8 py-4 rounded-lg transform hover:scale-105 transition-all duration-300 shadow-lg">
+                <a href="https://amzn.to/3S5uNvM" class="inline-block bg-white text-gray-900 font-semibold px-8 py-4 rounded-lg transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-white/25">
                     Bestel Nu Met Korting
                 </a>
             </div>
@@ -146,13 +232,14 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 <div>
                     <h3 class="text-xl font-semibold mb-4">Contact</h3>
-                    <p class="text-gray-400">support@example.com</p>
+                    <p class="text-gray-400">support@hydrofielknuffel.nl</p>
                 </div>
                 <div>
                     <h3 class="text-xl font-semibold mb-4">Links</h3>
                     <ul class="space-y-2 text-gray-400">
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Privacy Policy</a></li>
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://readthisnow.github.io/hydrofiel-knuffel-2025-04-26-h6qxp/privacy.html" class="hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://readthisnow.github.io/hydrofiel-knuffel-2025-04-26-h6qxp/terms.html" class="hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://readthisnow.github.io/hydrofiel-knuffel-2025-04-26-h6qxp/blog.html" class="hover:text-white transition-colors duration-300">Blog</a></li>
                     </ul>
                 </div>
             </div>
@@ -161,5 +248,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
